@@ -1,7 +1,7 @@
 <div class="navigation">
 	<div>Navigation:</div>
 	
-	<div><a href="/larp/bibliothek.php">Bibliothek</a></div>	
+	<div><a href="/bibliothek.php">Bibliothek</a></div>	
 
 	<div class="arrow"></div>
 	
