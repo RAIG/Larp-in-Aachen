@@ -93,6 +93,19 @@ body{
  color:#FFFFFF;
 }
 
+.arrowback{
+ background-image: url(../images/arrow_back.png);
+ margin-top:6px;
+ margin-right:5px;
+ float:left;
+ height:7px;
+ width:4px;	
+}
+
+.backward{
+ margin-top:20px;	
+}
+
 /* ------------ RIGHT CONTENT ------------ */
 
 #right_content{
@@ -135,11 +148,11 @@ body{
 }
 
 .quote{
- border:1px solid #C0C0C0;
  font-style:italic;
  text-align:center;	
  width:400px;
  margin-left:200px;
+ margin-bottom:20px;
 }
 
 .quote p{
@@ -153,6 +166,14 @@ body{
  float:left;
  height:7px;
  width:4px;	
+}
+
+.infobox{
+ width:300px;
+ float:right;		
+ background-color:#4A4A4A;
+ text-align:center;
+ color:#efefef;		
 }
 /* ------------ HORIZONTAL BOX ------------ */
 
@@ -175,6 +196,16 @@ body{
 .hbox div h1{
  font-size:18px;
  margin-bottom:5px;
+}
+
+.hbox div h1 a:link, .hbox div h1 a:visited{
+ text-decoration:none;
+ color:#141414;
+ font-size:18px;
+}
+
+.hbox div h1 a:active, .hbox div h1 a:hover{
+ color:#4A4A4A;
 }
 
 /* ------------ VERTICAL BOX ------------ */

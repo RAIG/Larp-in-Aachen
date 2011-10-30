@@ -6,7 +6,7 @@
 
 <?php include 'path.php'; ?>	
 
-<p><img src="/larp/images/ult_raigland.jpg" width="800" height="420"/></p>
+<p><img src="/images/ult_raigland.jpg" width="800" height="420"/></p>
 
  			
 <div style="float:left; width:49%;">
@@ -24,7 +24,7 @@ Drauwüste. Die bedeutenste Provinz ist jedoch die Grafschaft der Moanauen. Dort 
 der imperialen Rüstungsindustrie.</p>
 </div>
 
-<p><img src="/larp/images/provinz_raigland.jpg" width="600" height="317"/></p>
+<p><img src="/images/provinz_raigland.jpg" width="600" height="317"/></p>
 
  <div style="float:left; width:48%;"> 
 <h3>Das Raigland</h3>
@@ -56,7 +56,7 @@ zwischen Rodach und Neremund spezialisiert haben. Trotzdem gibt es noch einige G
 gelegenen Bruchwald gehen. Gefahren kommen ausschließlich aus dem gebirgigen Bruchwald, nördlich des Raigs.</p>
 </div>
 
-<p><img src="/larp/images/moanauen.jpg" width="600" height="300"/></p>
+<p><img src="/images/moanauen.jpg" width="600" height="300"/></p>
 
 <div style="float:left; width:48%;">
 <h3>Die Moanauen</h3>
@@ -81,7 +81,7 @@ Altwaldes oder des Mooswaldes nach Hammerheim geschafft werden. Einen anderen Gr
 Goblinüberfälle und gelegentliche Trollbesuche wissen die Besucher aber inzwischen recht gut abzuwehren. Daher sterben mehr Leute durch Arbeitsunfälle und Steinschlag.</p>
 </div>
 
-<p><img src="/larp/images/westtiefland.jpg" width="500" height="372"/></p>
+<p><img src="/images/westtiefland.jpg" width="500" height="372"/></p>
 
 <div style="float:left; width:48%;">
 <h3>Das Westtiefland</h3>
@@ -105,7 +105,7 @@ Westtiefland und die nahe Provinz Raigland beliefern. Diese Arbeit ist jedoch ni
 im Wald leben. Altbruch selbst wird jedoch von einer äußerst starken Stadtmauer und einer gut ausgebildeten Stadtmiliz beschützt, sodass die Einwohner relativ sicher sind.</p>
 </div>
 
-<p><img src="/larp/images/ostmark.jpg" width="600" height="454"/></p>
+<p><img src="/images/ostmark.jpg" width="600" height="454"/></p>
 
 <div style="float:left; width:48%;">
 <h3>Die Ostmark</h3>
@@ -131,7 +131,7 @@ Berg herunter steigen. Auch ist die Nähe zur Sturmspitze ein weiterer Grund, wes
 und Schafe gezüchtet. Die Burg, die Hasburg im Namen trägt, existiert schon seit längerem nicht mehr und wurde schon während den ersten Thrakerkriegen geschliffen.</p>
 </div>
 
-<p><img src="/larp/images/trakland.jpg" width="600" height="321"/></p>
+<p><img src="/images/trakland.jpg" width="600" height="321"/></p>
 
 <div style="float:left; width:48%;">
 <h3>Das Trakland</h3>
