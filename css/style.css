@@ -77,12 +77,6 @@ body{
  margin-bottom:10px;	
 }
 
-#left_content h1{
- font-size:14px;
- color:#141414;
- margin-bottom:10px;	
-}
-
 #left_content div a:link, #left_content div a:visited{
  text-decoration:none;
  color:#141414;
@@ -91,6 +85,17 @@ body{
 
 #left_content div a:active, #left_content div a:hover{
  color:#FFFFFF;
+}
+
+#left_content h1, #left_content h1 a:link, #left_content h1 a:visited{
+ text-decoration:none;
+ font-size:14px;
+ color:#141414;
+ margin-bottom:10px;	
+}
+
+#left_content h1 a:active, #left_content h1 a:hover{
+ color:#4A4A4A;
 }
 
 .arrowback{

@@ -6,24 +6,6 @@
 
 <?php include 'path.php'; ?>	
 
-<p><img src="/images/ult_raigland.jpg" width="800" height="420"/></p>
-
- 			
-<div style="float:left; width:49%;">
-<p>Das raigländische Imperium setzt sich aus dem Herzogtum Westtiefland, den Moanauen, der Ostmark und dem Trakland zusammen. Die Provinz Raigland liegt am 
-Kynraigsee, am Flussverlauf des Niederraigs und ist heute der Sitz des Kaisers Johann Hammerstein VII. Nördlich der Provinz versperrt der Tyrnogwall den Pass durch die
-Hornberge. So konnte bisher jeder weitere Überfall der Wildorks aus der Stossteppe nördlich des Imperiums abgewehrt werden. Folgt man dem Lauf des Raigs flussabwärts, 
-so gelangt man in die blühende Handelsstadt Bram, dem Sitz des Herzogs von Westtiefland. Flussaufwärts gelangt man in die Ostmark, nach Neremund, zum Sitz des Markgrafen.</p>
-</div>
-
-<div style="float:right; width:49%;">
-<p>Nördlich der Mark liegen die Dunpadberge, Heimat zahlreicher Zwergenstämme. Die wilden Traker im Süden der Ostmark wurden schon vor langer Zeit vertrieben.
-Viele Siedler hat es seitdem in die Traklande gezogen und es wurden einige kleine Städte und Dörfer wie Boerlangen oder Moosbach errichtet. Regiert wird die größte 
-Provinz des Imperiums von dem Reichsritterorden des Thero auf der Trakburg. Im Osten wird das Trakland durch den riesigen Nebelwald begrenzt und im Süden durch die 
-Drauwüste. Die bedeutenste Provinz ist jedoch die Grafschaft der Moanauen. Dort liegen die Städte Erkester, ein bedeutender Handelsknoten, und Hammerheim, das Zentrum
-der imperialen Rüstungsindustrie.</p>
-</div>
-
 <p><img src="/images/provinz_raigland.jpg" width="600" height="317"/></p>
 
  <div style="float:left; width:48%;"> 
