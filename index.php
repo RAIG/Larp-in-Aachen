@@ -12,7 +12,7 @@
 </div>
 
 <div class="hbox">
-	<a href="content/herzogtum_nebula/herzogtum_nebula.php"><img src="images/no_img.jpg" width="113" height="100"/></a>
+	<a href="content/herzogtum_nebula/herzogtum_nebula.php"><img src="images/nebula.jpg" width="113" height="100"/></a>
 	<div>
 		<h1><a href="content/herzogtum_nebula/herzogtum_nebula.php">Herzogtum Nebula</a></h1>
 		<p><a href="content/herzogtum_nebula/herzogtum_nebula.php">mehr...</a><p>
