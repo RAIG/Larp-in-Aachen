@@ -8,8 +8,7 @@
 			
 
 <div>
-	<p>Diese Seite befindet sich noch im Aufbau</p>
+	<p>Diese Seite befindet sich noch im Aufbau</p>	
 </div>
-
 
 <?php include '../../includes/footer.html'; ?>

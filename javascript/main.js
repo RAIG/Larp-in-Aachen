@@ -2,6 +2,12 @@
  * 
  */
 
+function openWindow(url,title) { 
+helpwindow = window.open(url,title,"menubar=no, width=700, height=600,scrollbars=yes");
+helpwindow.focus();
+return false;
+}
+
 function renderBuffer() {
 	var buffer = document.createElement('canvas');
 	buffer.width = 1000;
