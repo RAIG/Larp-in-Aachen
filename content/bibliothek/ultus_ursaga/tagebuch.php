@@ -1,14 +1,12 @@
 <?php include '../../../includes/header.html'; ?>
 
-<?php include "navigation.html"; ?>	
+<?php include "../../../empty_navigation.html"; ?>	
 
-<?php $title = 'Georaphie'; ?>
+<?php $title = 'Wandertagebuch des Bruders Ariches'; ?>
 
 <?php include 'path.php'; ?>			
 			
 <div>
-	<p>Beschrieben sind die Landschaften und Staedte von Ult durch den Wanderpriester Bruder Ariches aus dem ehrwürdigen Kloster Hoderung.</p>
-	
 	<div class="quote">
 		Thero sei mein Schild und schützte mich</br>
 		auf meinem Weg durch die Gefahr.</br>

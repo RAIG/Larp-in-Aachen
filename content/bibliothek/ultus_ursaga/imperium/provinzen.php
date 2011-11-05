@@ -1,8 +1,8 @@
-<?php include '../../../includes/header.html'; ?>
+<?php include '../../../../includes/header.html'; ?>
 
 <?php include "navigation.html"; ?>	
 
-<?php $title = 'Provinzen'; ?>
+<?php $title = 'Provinzen des Imperiums'; ?>
 
 <?php include 'path.php'; ?>	
 
@@ -141,4 +141,4 @@ Thrakerkriege im Jahre 12.684 gegründet, um das Reich vor einem Einfall der Wild
 nur Nidor als einzig wahren Gott ansahen und unseren Herren Thero und unserem Imperator Ulrich dem Ersten keinen Respekt zollten.</p>
 </div>
 
-<?php include '../../../includes/footer.html'; ?>
+<?php include '../../../../includes/footer.html'; ?>

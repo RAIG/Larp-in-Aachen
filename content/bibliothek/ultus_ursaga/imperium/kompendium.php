@@ -1,10 +1,10 @@
-<?php include '../../../includes/header.html'; ?>
+<?php include '../../../../includes/header.html'; ?>
 
 <?php include "navigation.html"; ?>	
 
-<?php $title = 'Das Imperium'; ?>
+<?php $title = 'Kompendium des Imperiums'; ?>
 
-<?php include 'path.php'; ?>
+<?php include 'path_self.php'; ?>
 
 <p><img src="/images/imperium.jpg" width="700" height="327"/></p>
 
@@ -27,8 +27,6 @@
 	</div>
 </div>
 
-<hr style="background: red; height:1px; width:100%; margin-bottom:10px;">
-
 <div>
 	<h3>Bewohner</h3>
 	
@@ -50,4 +48,4 @@
 </div>	
 
 
-<?php include '../../../includes/footer.html'; ?>
+<?php include '../../../../includes/footer.html'; ?>

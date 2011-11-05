@@ -5,9 +5,8 @@
 
 <div class="vbox">
 	<img src="/images/no_img.jpg" width="113" height="100"/>
-	<h1>Veit Gossen</h1>
 	<p>Webpräsenz</p>
-	<p>veitgossen(at)arcor.de</p>
+	<img src="/images/info.png" width="155" height="23"/>
 </div>
 
-<?php include 'includes/footer.html'; ?>s
+<?php include 'includes/footer.html'; ?>

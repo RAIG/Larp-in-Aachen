@@ -1,8 +1,8 @@
 <?php include '../../../includes/header.html'; ?>
 
-<?php include "navigation.html"; ?>	
+<?php include "../../../empty_navigation.html"; ?>	
 
-<?php $title = 'Geschichte'; ?>
+<?php $title = 'Das Buch Aeder'; ?>
 
 <?php include 'path.php'; ?>			
 			

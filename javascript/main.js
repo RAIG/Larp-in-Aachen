@@ -42,23 +42,29 @@ function renderBuffer() {
 	return buffer;	
 }
 
-function drawImage() {
-    var canvas = document.getElementById("myCanvas");
+function drawBanner() {
+    var canvas = document.getElementById("banner");
     if(canvas.getContext){
     	// canvas supported
     	var context = canvas.getContext("2d");    	
     	
-    	var images = renderBuffer();
-    	context.drawImage(images, 0, 0);
+    	//var images = renderBuffer();
     	
-        context.font = "50pt Calibri";
-        context.fillStyle = "#F2F2F2";
-        context.strokeStyle = "#1F1F1F";
-        context.fillText("Larp in Aachen", 10, 165);
-        context.strokeText("Larp in Aachen", 10, 165);
+    	var image = new Image();
+        image.src = "/images/banner_small.png"; 
         
-        context.font = "20pt Calibri";
-        context.fillText("beta", 420, 165);
+    	image.onload = function() {   	
+	    	context.drawImage(image, 0, 0);
+	    	
+	        context.font = "50pt Calibri";
+	        context.fillStyle = "#F2F2F2";
+	        context.strokeStyle = "#1F1F1F";
+	        context.fillText("Larp in Aachen", 10, 165);
+	        context.strokeText("Larp in Aachen", 10, 165);
+	        
+	        context.font = "20pt Calibri";
+	        context.fillText("beta", 420, 165);
+    	}
     }else{
     	
     	// fallback
@@ -66,5 +72,5 @@ function drawImage() {
 }
 
 
-window.onload = drawImage;
+window.onload = drawBanner;
 
