@@ -1766,9 +1766,11 @@ a.menu:after, .dropdown-toggle:after {
 .breadcrumb .active a {
   color: #404040;
 }
-.content .important{
+.content, .important{
   padding:10px;	
 }
+
+
 .picture{
   padding:10px;
   text-align:center;	

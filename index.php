@@ -32,13 +32,16 @@
 	</div>
 </div>
 
+<h2>Vereine und Gruppen in der Region Aachen</h2>
+
 <div class="row">
   <div class="span-one-third">
-    <h2>Raigländer Söldner</h2>
-    <p><a class="btn" href="#">Erfahre mehr &raquo;</a></p>
+    <h3>Raigländer Söldner</h3>
+    <p>Die wachsende Gruppe des Söldnerhaufens bespielt die eigene Fantasy-Welt Ultus-Ursaga. Ausstattung und Gewandung sind an das Europäische Spätmittelalter zwischen 1480 und 1520 angesiedelt.</p>
+    <p><a class="btn" href="intime.php">Erfahre mehr &raquo;</a></p>
   </div>
   <div class="span-one-third">
-    <h2>Herzogtum Nebula</h2>
+    <h3>Herzogtum Nebula</h3>
     <p><a class="btn" href="#">Erfahre mehr &raquo;</a></p>
  </div>
 

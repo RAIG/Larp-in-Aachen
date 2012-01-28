@@ -1,4 +1,4 @@
-<?php $nav = 4; ?>
+<?php $nav = 5; ?>
 
 <?php include 'includes/header.php'; ?>
 
@@ -32,17 +32,17 @@
 	
 <div class="row">
 	<div class="span6">
-	<h2>Wandertagebuch des Bruders Ariches</h2>
+	<h3>Wandertagebuch des Bruders Ariches</h3>
 	<p>Beschrieben sind die Landschaften und Staedte von Ult durch den Wanderpriester Bruder Ariches aus dem ehrwürdigen Kloster Hoderung.</p>
 	<p><a class="btn" href="ariches.php">Erfahre mehr &raquo;</a></p>
 	</div>
 	<div class="span6">
-	<h2>Kompendium des Imperiums</h2>
+	<h3>Kompendium des Imperiums</h3>
 	<p>Geographie, Wirtschaft und Kultur des glorreichen Imperiums im Herzen des Kontinents Ult.</p>
 	<p><a class="btn" href="kompendium.php">Erfahre mehr &raquo;</a></p>
 	</div>
 	<div class="span6">
-	<h2>Der große Atlas von Ult</h2>
+	<h3>Der große Atlas von Ult</h3>
 	<p>Politische und geologische Abbildungen des Kontinents. Herrausgegeben von der ehrenwerten Zunft der Seefahrer zu Bram.</p>
 	<p><a class="btn" href="atlas.php">Erfahre mehr &raquo;</a></p>
 	</div>	

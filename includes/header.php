@@ -54,7 +54,8 @@
           <li <?php if ( $nav == 1 ) { echo "class='active'"; } ?> ><a href="index.php">Home</a></li>
           <li <?php if ( $nav == 2 ) { echo "class='active'"; } ?> ><a href="termine.php">Termine</a></li>
           <li <?php if ( $nav == 3 ) { echo "class='active'"; } ?> ><a href="galerie.php">Galerie</a></li>
-          <li <?php if ( $nav == 4 ) { echo "class='active'"; } ?> ><a href="bibliothek.php">Bibliothek</a></li>
+          <li <?php if ( $nav == 4 ) { echo "class='active'"; } ?> ><a href="intime.php">Intime</a></li>
+          <li <?php if ( $nav == 5 ) { echo "class='active'"; } ?> ><a href="bibliothek.php">Bibliothek</a></li>
           <li class="dropdown" data-dropdown="dropdown" >
 		    <a href="#" class="dropdown-toggle">Kontakt</a>
 		    <ul class="dropdown-menu">
