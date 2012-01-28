@@ -7,7 +7,7 @@
 <ul class="breadcrumb">
   <li><a href="index.php">Home</a> <span class="divider">/</span></li>
   <li><a href="bibliothek.php">Bibliothek</a> <span class="divider">/</span></li>
-  <li class="active">Kompendium</li>
+  <li class="active">Kompendium des Imperiums</li>
 </ul>
 
 		<!-- Popup Window -->

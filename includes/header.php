@@ -15,6 +15,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
   <script src="js/bootstrap-dropdown.js"></script>
   <script src="js/bootstrap-modal.js"></script>
+  <script src="js/bootstrap-twipsy.js"></script>
+  <script src="js/bootstrap-popover.js"></script>
 
   <!-- Le styles -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -36,7 +38,18 @@
   <div class="topbar">
     <div class="fill">
       <div class="container">
-        <a class="brand" href="index.php">Larp in Aachen beta</a>
+        <a class="brand" rel="popover" title="v.0.1 beta" data-placement="below" data-content="Die Webpräsenz der Raigländer Söldner befindet sich noch im Aufbau. Der Inhalt wird mit und mit an das neue Design angepasst und eingepflegt." href="index.php">Larp in Aachen beta</a>
+          <script>
+            $(function () {
+              $("a[rel=popover]")
+                .popover({
+                  offset: 10
+                })
+                .click(function(e) {
+                  e.preventDefault()
+                })
+            })
+          </script>
         <ul class="nav">
           <li <?php if ( $nav == 1 ) { echo "class='active'"; } ?> ><a href="index.php">Home</a></li>
           <li <?php if ( $nav == 2 ) { echo "class='active'"; } ?> ><a href="termine.php">Termine</a></li>

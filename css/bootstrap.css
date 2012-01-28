@@ -1766,7 +1766,7 @@ a.menu:after, .dropdown-toggle:after {
 .breadcrumb .active a {
   color: #404040;
 }
-.content{
+.content .important{
   padding:10px;	
 }
 .picture{
@@ -1791,6 +1791,10 @@ a.menu:after, .dropdown-toggle:after {
 .content p {
   font-size: 14px;
   line-height: 20px;
+}
+.important p {
+  font-size:18px;
+  line-height:1.5;	
 }
 .hero-unit {
   background-color: #f5f5f5;
