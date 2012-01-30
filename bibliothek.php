@@ -6,7 +6,7 @@
 	<div class="row">
 		<div class="span18">
 			<div class="picture">
-				<img src="/images/bibliothek.png" width="1000" height="200"/>
+				<img src="/images/bibliothek_banner.jpg" width="1000" height="200"/>
 			</div>
 		</div>
 	</div>
@@ -32,20 +32,39 @@
 	
 <div class="row">
 	<div class="span6">
-	<h3>Wandertagebuch des Bruders Ariches</h3>
-	<p>Beschrieben sind die Landschaften und Staedte von Ult durch den Wanderpriester Bruder Ariches aus dem ehrwürdigen Kloster Hoderung.</p>
-	<p><a class="btn" href="ariches.php">Erfahre mehr &raquo;</a></p>
+		<h3>Wandertagebuch des Bruders Ariches</h3>
+		<p>Beschrieben sind die Landschaften und Staedte von Ult durch den Wanderpriester Bruder Ariches aus dem ehrwürdigen Kloster Hoderung.</p>
+		<p><a class="btn" href="ariches.php">Erfahre mehr &raquo;</a></p>
 	</div>
 	<div class="span6">
-	<h3>Kompendium des Imperiums</h3>
-	<p>Geographie, Wirtschaft und Kultur des glorreichen Imperiums im Herzen des Kontinents Ult.</p>
-	<p><a class="btn" href="kompendium.php">Erfahre mehr &raquo;</a></p>
+		<h3>Kompendium des Imperiums</h3>
+		<p>Geographie, Wirtschaft und Kultur des glorreichen Imperiums im Herzen des Kontinents Ult.</p>
+		<p><a class="btn" href="kompendium.php">Erfahre mehr &raquo;</a></p>
 	</div>
 	<div class="span6">
-	<h3>Der große Atlas von Ult</h3>
-	<p>Politische und geologische Abbildungen des Kontinents. Herrausgegeben von der ehrenwerten Zunft der Seefahrer zu Bram.</p>
-	<p><a class="btn" href="atlas.php">Erfahre mehr &raquo;</a></p>
+		<h3>Der große Atlas von Ult</h3>
+		<p>Politische und geologische Abbildungen des Kontinents. Herausgegeben von der ehrenwerten Zunft der Seefahrer zu Bram.</p>
+		<p><a class="btn" href="atlas.php">Erfahre mehr &raquo;</a></p>
 	</div>	
 </div>
+
+<div class="row">
+	<div class="span6">
+		<h3>Chroniken der Raigländer Söldner</h3>
+		<p>Über den Aufstieg des legendären Söldnerhaufens aus dem Raigland, über ihre Heldentaten auf dem Kontinent Mitraspera und finstersten Regionen, in die sich nur die tapfersten Krieger wagen.</p>
+		<p><a class="btn" href="chroniken.php">Erfahre mehr &raquo;</a></p>
+	</div>	
+	<div class="span6">
+		<h3>Das Buch Aeder</h3>
+		<p>Über die Schriftrolle der Schöpfung und die Kirchen des heiligen Imperiums, Kulte anderer Völker und die geächteten Kirchen.</p>
+		<p><a class="btn" href="#">Erfahre mehr &raquo;</a></p>
+	</div>
+	<div class="span6">
+		<h3>Opus Magnum Magiekae</h3>
+		<p>Das Große Buch der Zauberei. Über die Zauberwirkenden auf Ult und bemerkenswerte Magier und magische Zünfte des Imperiums.</p>
+		<p><a class="btn" href="#">Erfahre mehr &raquo;</a></p>
+	</div>
+</div>
+
 
 <?php include 'includes/footer.php'; ?>

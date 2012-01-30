@@ -1,4 +1,4 @@
-<?php $nav = 4; ?>
+<?php $nav = 5; ?>
 
 <?php include 'includes/header.php'; ?>
 
@@ -80,6 +80,8 @@
 	</div>
 </div>
 
+<?php $next_name = "Provinzen"; ?>
+<?php $next_link = "kompendium_provinzen.php"; ?>
 
 <?php include 'kompendium_footer.php'; ?>
 

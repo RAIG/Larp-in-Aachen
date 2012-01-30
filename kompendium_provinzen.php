@@ -1,4 +1,4 @@
-<?php $nav = 4; ?>
+<?php $nav = 5; ?>
 
 <?php include 'includes/header.php'; ?>
 
@@ -198,7 +198,7 @@
 	</div>
 
 	<div class="span7">
-		<p class="t1">Das Städtchen Moosbach liegt an der Moos, einem kleinen Flüsschen welches in den Moossee fließt. Die wenigen Leute, die hier in der inzwischen 
+		<p>Das Städtchen Moosbach liegt an der Moos, einem kleinen Flüsschen welches in den Moossee fließt. Die wenigen Leute, die hier in der inzwischen 
 		beschaulichen Gegend wohnen, leben zu gleichen Teilen von der Landwirtschaft, der Fischerei wie auch als Köhler im nahe gelegenen Mooswald für die nie stillstehenden 
 		Hochöfen in Hammerheim.</p>
 		
@@ -211,6 +211,9 @@
 		nur Nidor als einzig wahren Gott ansahen und unseren Herren Thero und unserem Imperator Ulrich dem Ersten keinen Respekt zollten.</p>
 	</div>
 </div>
+
+<?php $prev_name = "Das Imperium"; ?>
+<?php $prev_link = "kompendium.php"; ?>
 
 <?php include 'kompendium_footer.php'; ?>
 

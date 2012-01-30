@@ -1766,21 +1766,25 @@ a.menu:after, .dropdown-toggle:after {
 .breadcrumb .active a {
   color: #404040;
 }
-.content, .important{
-  padding:10px;	
+.content {
+  padding:10px;
 }
-
-
-.picture{
+.important {
+  font-family: times;
+}
+.picture, .center {
   padding:10px;
   text-align:center;	
 }
-.quote{
+.right {
+  text-align:right;	
+}
+.quote {
   font-style:italic;
   text-align:center;
   padding:10px;	
 }
-.quote p{
+.quote p {
   font-weight:bold;	
   text-align:right;	
 }
@@ -1818,7 +1822,8 @@ a.menu:after, .dropdown-toggle:after {
   line-height: 27px;
 }
 .grey-box {
-  background-color: #f5f5f5;
+  background-color: #F2F2F2;
+  color: #303030;
   margin-bottom: 10px;
   padding: 0px;
   -webkit-border-radius: 6px;
@@ -1829,7 +1834,7 @@ footer {
   text-align: center;
   margin-top: 17px;
   padding-top: 17px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #CFCFCF;
 }
 .page-header {
   margin-bottom: 17px;

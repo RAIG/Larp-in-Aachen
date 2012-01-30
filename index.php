@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="span18">
 			<div class="picture">
-				<img src="/images/index_banner.png" width="1000" height="200"/>
+				<img src="/images/index_banner.jpg" width="1000" height="200"/>
 			</div>
 		</div>
 	</div>
@@ -32,7 +32,9 @@
 	</div>
 </div>
 
-<h2>Vereine und Gruppen in der Region Aachen</h2>
+<div class="center">
+	<h2>Vereine und Gruppen in der Region Aachen</h2>
+</div>
 
 <div class="row">
   <div class="span-one-third">

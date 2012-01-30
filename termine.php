@@ -6,7 +6,7 @@
 	<div class="row">
 		<div class="span18">
 			<div class="picture">
-				<img src="/images/training.png" width="1000" height="200"/>
+				<img src="/images/training_banner.jpg" width="1000" height="200"/>
 			</div>
 		</div>
 	</div>
@@ -16,7 +16,7 @@
 			<div class="content">
 				<h3>Waffentraining</h3>
 				<p>Immer Donnerstags nachmittags bei guten Wetter auf dem östlichen Teil des Veltmanplatzes in Aachen.</p>
-				  <p><a class="btn primary" href="http://maps.google.de/maps?q=50.781664,6.083207&ll=50.781576,6.08285&spn=0.00145,0.004128&num=1&t=h&vpsrc=6&gl=de&z=19">Google Maps &raquo;</a></p>
+				  <p><a class="btn primary" target="_blank" href="http://maps.google.de/maps?q=50.781664,6.083207&ll=50.781576,6.08285&spn=0.00145,0.004128&num=1&t=h&vpsrc=6&gl=de&z=19">Google Maps &raquo;</a></p>
 			</div>
 		</div>
 		
@@ -59,6 +59,11 @@
 			<td>Irgendwo bei Straelen, von Another World Entertainment</td>
 		</tr>
 		<tr>
+			<td>Argeste 17: Der Handel</td>
+			<td>12. Mai 2012</td>
+			<td>Tageslarpi im Königsdorfer Wald bei Frechen.</td>
+		</tr>	
+		<tr>
 			<td>Avarisches Ritterlager</td>
 			<td>21. bis 24. Juni 2012</td>
 			<td>Jugendzeltplatz „Blaskapelle Lang-Göns“ direkt bei Giessen, vom Förderverein für mittelalterliches Laienschauspiel e.V.</td>
@@ -68,11 +73,11 @@
 			<td>1. bis 5. August 2012</td>
 			<td>Rittergut Brokeloh, von Live Adventure</td>
 		</tr>
-				<tr>
+		<tr>
 			<td>Into The Wood VI - The Dark Castle</td>
 			<td>28. bis 30. September 2012</td>
 			<td>Burg Bilstein bei Olpe, vom Twilight Team</td>
-		</tr>		
+		</tr>	
 	</tbody>
 </table>
 

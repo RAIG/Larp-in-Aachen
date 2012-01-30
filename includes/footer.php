@@ -2,7 +2,7 @@
   <p>Impressum</p>
 </footer>
 
-</div> <!-- /container -->
+</div> 
 
 </body>
 </html>

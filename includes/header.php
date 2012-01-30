@@ -26,11 +26,6 @@
     }
   </style>
 
-  <!-- Le fav and touch icons -->
-  <link rel="shortcut icon" href="images/favicon.ico">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 
 <body>
@@ -38,7 +33,7 @@
   <div class="topbar">
     <div class="fill">
       <div class="container">
-        <a class="brand" rel="popover" title="v.0.1 beta" data-placement="below" data-content="Die Webpräsenz der Raigländer Söldner befindet sich noch im Aufbau. Der Inhalt wird mit und mit an das neue Design angepasst und eingepflegt." href="index.php">Larp in Aachen beta</a>
+        <a class="brand" rel="popover" title="v.0.2 beta" data-placement="below" data-content="Die Webpräsenz der Raigländer Söldner befindet sich noch im Aufbau. Der Inhalt wird mit und mit an das neue Design angepasst und eingepflegt." href="index.php">Larp in Aachen beta</a>
           <script>
             $(function () {
               $("a[rel=popover]")
@@ -61,7 +56,7 @@
 		    <ul class="dropdown-menu">
 		      <li><a href="kontakt.php">Ansprechpartner</a></li>
 		      <li class="divider"></li>
-		      <li><a href="#">Forum</a></li>
+		      <li><a target="_blank" href="http://www.wyverex.de/nebula/phpbb2/index.php">Forum</a></li>
 		      <li><a href="#">Gästebuch</a></li>
 		    </ul>
 		  </li>
