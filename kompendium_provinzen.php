@@ -13,21 +13,21 @@
 </ul>
 	
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<div class="picture">
-			<img src="/images/provinz_raigland.jpg" width="600" height="317"/>
+			<img src="/img/provinz_raigland.jpg" width="600" height="317"/>
 		</div>
 	</div>
 </div>	
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<h3>Das Raigland</h3>
 	</div>
 </div>
 	
 <div class="row">
-	<div class="span7">
+	<div class="span5">
 		<p>Der Tyrnogwall ist eine Festungsanlage, die den Pass durch die Hornberge zur Stosteppe versperrt. Im Tyrnogwall ist ein
 		Großteil des stehenden Imperialen Heeres zur Bewachung des riesigen Tores untergebracht. In Auftrag gegeben wurde die Wallanlage von Ulrich dem Ersten, nachdem dieser
 		abermals die Orks aus dem Reich getrieben hatte. Die Fertigstellung der Wallanlage fand aber erst 20 Jahre nach dem Tode Ulrichs statt, und wurde seither aber immer weiter
@@ -41,7 +41,7 @@
 		Festungen stationiert.</p>
 	</div>
 
-	<div class="span7">
+	<div class="span5">
 		<p>Rodach ist die Hauptstadt des Reiches. Neben dem Palast und der Festung von Rodach, die um 12270 ae von Ulrich dem Ersten erbaut worden ist, gibt es noch weitere
 		Sehenswürdigkeiten, wie die Bibliothek und die Universität der Donnersturm Gilde, Theros Kathedrale und die große Arena zu Kros, nach ihrem Erbauer benannt und seit
 		jeher Schauplatz der blutigsten Kämpfe zur Unterhaltung der Gemeinen.</p>
@@ -58,21 +58,21 @@
 </div>
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<div class="picture">
-			<img src="/images/moanauen.jpg" width="600" height="300"/>
+			<img src="/img/moanauen.jpg" width="600" height="300"/>
 		</div>
 	</div>
 </div>	
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<h3>Die Moanauen</h3>
 	</div>
 </div>
 	
 <div class="row">
-	<div class="span7">
+	<div class="span5">
 		<p>Erkester ist der Sitz des Grafen der Moanauen und damit Hauptstadt der Grafschaft. Die Stadt wurde an einer Furt über den Urs erbaut und bildet so einen
 		der wichtigsten Handelsknoten im Imperium. Berühmt ist Erkester aber vielmehr für seine im Jahre 12.921 ae. gegründete Militärakademie und für die dort ausgebildeten
 		Infanteriekämpfer, sowie der Erkester Bihandkämpfer. Außerdem steht dort das Ordenshaus der Schildschwestern, welches 12.439 ae. dort eingerichtet wurde,
@@ -85,7 +85,7 @@
 		ausschließlich aus den Erzbergen.</p>
 	</div>
 	
-	<div class="span7">
+	<div class="span5">
 		<p>Hammerheim ist die Imperiale Rüstungskrone. Die kleine Stadt ist in den Erzbergen nur zu dem Zweck der Stahlgewinnung vom Hochkaiser Lothar III im Jahre
 		der Götter 12382 ae. gegründet worden und wurde seither immer weiter ausgebaut. Der Urs ist der wichtigste Energielieferant, da er die unzähligen Hammermühlen antreibt,
 		welche den Stahl schmieden. Das Erz wird vor Ort in den tiefen Minen der Erzberge abgebaut. Da nicht genügend Kohle zur verfügung steht, wird Holzkohle verwendet. Früher
@@ -96,21 +96,21 @@
 </div>
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<div class="picture">
-			<img src="/images/westtiefland.jpg" width="500" height="372"/>
+			<img src="/img/westtiefland.jpg" width="500" height="372"/>
 		</div>
 	</div>
 </div>	
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<h3>Das Westtiefland</h3>
 	</div>
 </div>
 	
 <div class="row">
-	<div class="span7">
+	<div class="span5">
 		<p>Bram ist der Sitz des Herzogtums Westtiefland. Die florierende Handelsstadt liegt an der Mündung des Raigs in den Großen Ozean. Die
 		Haupteinnahmequelle ist der Umschlag und Handel von Wahren zwischen den hochseetauglichen Schiffen und den kleineren Flussbooten, welche Rodach erreichen können. Dabei
 		wird beinahe alles verschifft: Von Gold und edlen Hölzern aus Belinga, Silber und Schmucksteine aus Gul`Ata oder Pelze aus Trondheim, bis zu eigenen Produkten wie feinen
@@ -120,7 +120,7 @@
 		Westtiefländer gerne für die Hohe Wache des Imperators rekrutiert.</p>
 	</div>
 
-	<div class="span7">
+	<div class="span5">
 		<p>Wettersted ist ein kleines Fischerdorf, welches in der Bucht direkt gegenüber von Bram liegt. Sollte Bram weiter wachsen, wird Wetterstedt eines Tages 
 		von der Hauptstadt adaptiert werden.</p>
 	
@@ -133,21 +133,21 @@
 </div>
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<div class="picture">
-			<img src="/images/ostmark.jpg" width="600" height="454"/>
+			<img src="/img/ostmark.jpg" width="600" height="454"/>
 		</div>
 	</div>
 </div>	
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<h3>Die Ostmark</h3>
 	</div>
 </div>
 	
 <div class="row">
-	<div class="span7">
+	<div class="span5">
 		<p>Neremund ist der Sitz des Grafen in der Ostmark am Raig. Die Haupteinnahmequelle Neremunds ist Schafswolle für Kleidung und die etwas weiter nördlich 
 		gelegenen Kupferminen. Auch der Weinanbau hat hier Tradition, auch wenn dieser nicht so süß und lieblich ist wie der Trakländische. In Neremund sind auch öfters 
 		zwergische Grenzläufer unterwegs, also solche die ihre unterirdische Festung verlassen haben um zu handeln. Meistens liefern diese ihr berühmtes Zwergenbier und besondere 
@@ -159,7 +159,7 @@
 		letzte schlimme Ereignis war der große Brand vor nun 73 Jahren, bei der, den Göttern sei dank, die Chroniken fast vollständig gerettet werden konnten.</p>
 	</div>
 
-	<div class="span7">
+	<div class="span5">
 		<p>Holmstedt ist die nördlichste Siedlung des Imperiums. Das Städtchen Holmstedt ist direkt in der Nähe des gleichnamigen Passes durch die 
 		Nebelberge. Das Passieren dieses Passes ist kaum von Bedeutung, da die dahinter liegenden Gebiete ein normales Handelsgeschäft zu risikoreich machen, weshalb lieber 
 		auf den Seeweg in Richtung Keldon ausgewichen wird. Das einzige Produkt aus dieser Region ist warmer Pelz von Bergtieren, die beinahe mit denen aus Keldon konkurrieren 
@@ -172,21 +172,21 @@
 </div>	
 	
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<div class="picture">
-			<img src="/images/trakland.jpg" width="600" height="321"/>
+			<img src="/img/trakland.jpg" width="600" height="321"/>
 		</div>
 	</div>
 </div>	
 
 <div class="row">
-	<div class="span14">
+	<div class="span10">
 		<h3>Das Trakland</h3>
 	</div>
 </div>
 	
 <div class="row">
-	<div class="span7">
+	<div class="span5">
 		<p>Boerlangen ist der Mittelpunkt und Hauptsitz des Traklandes, welches das flächenmäßig Größte im Imperium ist. Boerlangen liegt auf einer kleinen Hügelkette 
 		in mitten eines unendlich scheinenden Grasmeeres. Damit hat die Stadt eine herausragende Position zum verteidigen und kann auch noch von weitem als Landmarke benutzt 
 		werden. Auf den Hügeln um Boerlangen wird der, im ganzen Imperium geliebter Trakländer Wein angebaut. Der Rest der zumeist grasbewachsenen Fläche des Landes wird zur 
@@ -197,7 +197,7 @@
 		vollständig eingegliedert in die herausragende Gesellschaft des Imperiums. Nur die Pferdezucht in diesem Gebiet erinnert noch an sie.</p>
 	</div>
 
-	<div class="span7">
+	<div class="span5">
 		<p>Das Städtchen Moosbach liegt an der Moos, einem kleinen Flüsschen welches in den Moossee fließt. Die wenigen Leute, die hier in der inzwischen 
 		beschaulichen Gegend wohnen, leben zu gleichen Teilen von der Landwirtschaft, der Fischerei wie auch als Köhler im nahe gelegenen Mooswald für die nie stillstehenden 
 		Hochöfen in Hammerheim.</p>

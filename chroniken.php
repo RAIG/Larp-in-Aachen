@@ -10,16 +10,16 @@
 
 <div class="grey-box">
 	<div class="row">
-		<div class="span18">
+		<div class="span12">
 			<div class="picture">
-				<img src="/images/chroniken_banner.jpg" width="1000" height="200"/>
+				<img src="/img/chroniken_banner.jpg" width="940" height="200"/>
 			</div>
 		</div>
 	</div>	
 </div>
 
 <div class="row">
-	<div class="span9">
+	<div class="span6">
 		<p>Wieder einmal bedrohten die wilden Horden der Thraker das Raigland. Als der Imperator zu den Waffen rief, reisten unzählige mutige Krieger aus dem ganzen Kontinent
 		in das Reich, um an dem großen Feldzug teilzunehmen. Die wilden Thraker waren vielleicht in der Lage kleine abgelegene Dörfer zu überfallen und zu verwüsten, doch den
 		entschlossenen Linien der raigländischen Armee hatten sie nichts entgegenzusetzen. Schnell waren die Horden der Thraker zerschlagen. Viele versuchten in die Gebirge zu
@@ -39,7 +39,7 @@
 	</div>
 	
 
-	<div class="span9">		
+	<div class="span6">		
 		<p>Die meisten Siedler schlossen sich einem Element an. Sie hofften, in ihrer Gunst ihre Feinde
 		besiegen zu können. Anfangs mussten sich die Söldner noch mit wenig ertragreichen Aufgaben und Gefälligkeiten über Wasser halten. Kaum jemand kannte sie und wusste ihre
 		Qualitäten und Fähigkeiten zu schätzen. Doch nach kurzer Zeit konnten sie sich einen Namen bei der Verteidigung des grauen Lagers machen. Nur wenige besaßen den Mut und die

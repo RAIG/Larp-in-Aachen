@@ -4,23 +4,23 @@
 
 <div class="grey-box">
 	<div class="row">
-		<div class="span18">
+		<div class="span12">
 			<div class="picture">
-				<img src="/images/training_banner.jpg" width="1000" height="200"/>
+				<img src="/img/training_banner.jpg" width="940" height="200"/>
 			</div>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="span9">
+		<div class="span6">
 			<div class="content">
 				<h3>Waffentraining</h3>
 				<p>Immer Donnerstags nachmittags bei guten Wetter auf dem östlichen Teil des Veltmanplatzes in Aachen.</p>
-				  <p><a class="btn primary" target="_blank" href="http://maps.google.de/maps?q=50.781664,6.083207&ll=50.781576,6.08285&spn=0.00145,0.004128&num=1&t=h&vpsrc=6&gl=de&z=19">Google Maps &raquo;</a></p>
+				  <p><a class="btn btn-primary" target="_blank" href="http://maps.google.de/maps?q=50.781664,6.083207&ll=50.781576,6.08285&spn=0.00145,0.004128&num=1&t=h&vpsrc=6&gl=de&z=19">Google Maps &raquo;</a></p>
 			</div>
 		</div>
 		
-		<div class="span9">
+		<div class="span6">
 			<div class="content">
 				<p>Ausrüstung ist grundsätzlich nicht nötig. Eine Waffe ist immer mal übrig und Gewandung ist aufgrund der Lage mitten in der Stadt
 			    eh etwas ungünstig. Handschuhe erweisen sich allerdings als sehr praktisch da man schnell mal einen unglücklichen Treffer auf die Finger 
@@ -31,9 +31,11 @@
 	</div>
 </div>
 
-<h3>Geplante Veranstaltungen</h3>
+<div class="center">
+	<h3>Geplante Veranstaltungen</h3>
+</div>
 
-<table class="zebra-striped">
+<table class="table table-striped">
 	<thead>
 		<tr>
 			<th>Con</th>
@@ -63,11 +65,6 @@
 			<td>12. Mai 2012</td>
 			<td>Tageslarpi im Königsdorfer Wald bei Frechen.</td>
 		</tr>	
-		<tr>
-			<td>Avarisches Ritterlager</td>
-			<td>21. bis 24. Juni 2012</td>
-			<td>Jugendzeltplatz „Blaskapelle Lang-Göns“ direkt bei Giessen, vom Förderverein für mittelalterliches Laienschauspiel e.V.</td>
-		</tr>
 		<tr>
 			<td>Conquest of Mythodea</td>
 			<td>1. bis 5. August 2012</td>
