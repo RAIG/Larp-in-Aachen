@@ -122,19 +122,19 @@
 	</div>
 </div>
 
-<div class="grey-box">
-	<div class="row">
-		<div class="span4 offset4">
-			<div class="quote">
-				Thero sei mein Schild und schützte mich</br>
-				auf meinem Weg durch die Gefahr.</br>
-				Thero sei mein Licht und leuchte mir</br>
-				auf meinem Weg durch die Dunkelheit.</br>
-				Richte den Ketzer und zerschmettere das Chaos.</br>
-				<p>-Aus dem Buch Aeder</p>
-			</div>
+
+<div class="row">
+	<div class="span4 offset4">
+		<div class="quote">
+			Thero sei mein Schild und schützte mich</br>
+			auf meinem Weg durch die Gefahr.</br>
+			Thero sei mein Licht und leuchte mir</br>
+			auf meinem Weg durch die Dunkelheit.</br>
+			Richte den Ketzer und zerschmettere das Chaos.</br>
+			<p>-Aus dem Buch Aeder</p>
 		</div>
 	</div>
 </div>
+
 
 <?php include 'includes/footer.php'; ?>

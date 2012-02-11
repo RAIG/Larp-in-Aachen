@@ -1,18 +1,6 @@
 <?php $nav = 4; ?>
-
+<?php $banner = "intime_banner.jpg"; ?>
 <?php include 'includes/header.php'; ?>
-
-
-
-<div class="grey-box">
-	<div class="row">
-		<div class="span12">
-			<div class="picture">
-				<img src="/img/intime_banner.jpg" width="940" height="200"/>
-			</div>
-		</div>
-	</div>	
-</div>
 
 <div class="row">
 	<div class="span3">

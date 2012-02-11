@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="span4">
 		<div class="sidebar">
-			<div class="well">
+			<div class="color-box">
 				<h5>Raigländer Söldner</h5>
 				<ul>
 					<li><a href="#">Über uns</a></li>

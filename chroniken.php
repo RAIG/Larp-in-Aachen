@@ -1,5 +1,5 @@
 <?php $nav = 5; ?>
-
+<?php $banner = "chroniken_banner.jpg"; ?>
 <?php include 'includes/header.php'; ?>
 
 <ul class="breadcrumb">
@@ -7,16 +7,6 @@
   <li><a href="bibliothek.php">Bibliothek</a> <span class="divider">/</span></li>
   <li class="active">Chroniken der Raigländer Söldner</li>
 </ul>
-
-<div class="grey-box">
-	<div class="row">
-		<div class="span12">
-			<div class="picture">
-				<img src="/img/chroniken_banner.jpg" width="940" height="200"/>
-			</div>
-		</div>
-	</div>	
-</div>
 
 <div class="row">
 	<div class="span6">

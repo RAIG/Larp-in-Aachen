@@ -6,9 +6,8 @@
 				<ul class="nav nav-list">
 				 	<li class="nav-header">Das Imperium</li>
 					<li><a href="kompendium_provinzen.php">Provinzen</a></li>
-					<li><a href="#">Geschichte</a></li>
-					<li><a href="#">Recht und Gesetz</a></li>
-					<li><a href="#">Stände</a></li>
+					<li><a href="kompendium_recht.php">Recht und Gesetz</a></li>
+					<li><a href="kompendium_staende.php">Stände</a></li>
 					<li><a href="#">Wirtschaft</a></li>
 					<li><a href="#">Turniere</a></li>
 				</ul>          

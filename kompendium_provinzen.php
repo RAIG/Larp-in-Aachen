@@ -214,6 +214,8 @@
 
 <?php $prev_name = "Das Imperium"; ?>
 <?php $prev_link = "kompendium.php"; ?>
+<?php $next_name = "Recht und Gesetz"; ?>
+<?php $next_link = "kompendium_recht.php"; ?>
 
 <?php include 'kompendium_footer.php'; ?>
 

@@ -10,22 +10,23 @@
   <li class="active">Kompendium des Imperiums</li>
 </ul>
 
-		<!-- Popup Window -->
-          <div id="popup_imperium" class="modal hide fade">
+
+<div class="row">
+	<div class="span10">
+		<div class="picture">
+			<a data-toggle="modal" href="#popup_imperium" ><img src="/img/imperium.jpg" width="600" height="327"/></a>
+		</div>
+		
+		<!-- Popup Imperium -->
+		<div id="popup_imperium" class="modal hide fade">
             <div class="modal-header">
-              <a href="#" class="close">&times;</a>
+              <a class="close" data-dismiss="modal" >&times;</a>
               <h3>Das Imperium</h3>
             </div>
             <div class="modal-body">
               <img src="/img/imperium_large.jpg" width="1080" height="599"/>
             </div>
-          </div>
-
-<div class="row">
-	<div class="span10">
-		<div class="picture">
-			<a data-controls-modal="popup_imperium" data-backdrop="true" data-keyboard="true"><img src="/img/imperium.jpg" width="600" height="327"/></a>
-		</div>
+          </div>		
 	</div>
 </div>	
          
@@ -72,13 +73,13 @@
 	</div>
 </div>		
 
-<div class="grey-box">
-	<div class="row">
-		<div class="span4 offset3">
-			<div class="quote">	„Training? Ich hab` gesehen, wie mein Getreide in Asche verwandelt wurde, mehr Motivation brauche ich nicht!“</div>
-		</div>
+
+<div class="row">
+	<div class="span4 offset3">
+		<div class="quote">	„Training? Ich hab` gesehen, wie mein Getreide in Asche verwandelt wurde, mehr Motivation brauche ich nicht!“</div>
 	</div>
 </div>
+
 
 <?php $next_name = "Provinzen"; ?>
 <?php $next_link = "kompendium_provinzen.php"; ?>
