@@ -74,39 +74,18 @@ body {
   padding: 10px;
 }
 .footer {
-  background-color:#222;
-  margin-top: 40px;
-  padding: 20px 0;
-
-}
-.footer-underline {
-  border-top: 1px solid #444;
-  margin-top: 5px;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-top: 1px solid #DBDBDB;
 }
 .footer a {
-  color: #C7C7C7;	
-}
-.footer-underline a {
-  color: #DBDBDB;	
+  color: #333;	
 }
 .footer a:hover {
-  color: #FFFFFF;
+  color:  #777;
   text-decoration: none;		
 }
-.footer-underline a:hover {
-  color: #FFFFFF;
-  text-decoration: none;	
-}
-.footer-links {
-  list-style: none;
-}
-.footer-links li {
-  list-style: none;
-  float: left;
-  margin-right: 14px;  
-}
 .footer p {
-  margin-bottom: 0; 
   color: #777;
 }
 .footer .pull-left {
