@@ -19,26 +19,39 @@
 	</div>	
 	
 	<div class="row">
-		<div class="span4">
+		<div class="span5">
 			<div class="color-box">
 				<div class="content">
 					<h3>Neuigkeiten</h3>
+					<ul>
+						<li>18/02/2012: Condra Taverne</li>
+						<li>01/02/2012: Anpassung an Bootstrap V.2.0</li>
+						<li>25/01/2012: Redesign mit Front-End Toolkit Bootstrap</li>
+						<li>21/01/2012: Condra Taverne</li>
+						<li>29/10/2011: Relaunch der Website</li>
+		        	</ul>
+				</div>
+			</div>
+			<div class="color-box">
+				<div class="content">
+					<h4>Newsletter abonnieren</h4>
+					<form class="form-search">
+					<input type="text" class="span3" placeholder="E-Mail Adresse eingeben…">
+        			<button type="submit" class="btn disabled">Anmelden</button>
+        			</form>
 				</div>
 			</div>
 		</div>	
 	
 	
-		<div class="span7 offset1">
+		<div class="span7">
 			<div class="color-box">
-				<div class="content">				
-					<div class="important">
-						<h3>Vereine und Gruppen in der Region Aachen</h3>
-					</div>
+				<div class="content">
+					<h3>Vereine und Gruppen in der Region Aachen</h3>
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#raigland" data-toggle="tab">Raigländer Söldner</a></li>
 						<li><a href="#nebula" data-toggle="tab">Herzogtum Nebula</a></li>
-					</ul>
-					 
+					</ul>					 
 					<div  class="tab-content">
 						<div class="tab-pane fade in active" id="raigland">
 						    <p>Die kleine, aber wachsende Gruppe des Söldnerhaufens bespielt die eigene Fantasy-Welt Ultus-Ursaga. Angestrebt ist eine möglichst authentische Ausstattung und Gewandung des ausgehenden Europäischen Mittelalters zwischen 1480 und 1520 angesiedelt.

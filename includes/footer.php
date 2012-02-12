@@ -1,9 +1,11 @@
 
-	<footer class="footer"> 
+</div>
+
+<footer class="footer">
+	<div class="container">	 
 		<p class="pull-left"><a href="">Impressum</a></p>
 		<p class="pull-left"><a href="">Sitemap</a></p>
-		<p class="pull-right"><a href="#">Nach oben<i class="icon-arrow-up"></i></a></p>
-		
+		<p class="pull-right"><a href="#">Nach oben<i class="icon-arrow-up"></i></a></p>		
 	</footer>
 </div>
 <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
