@@ -18,6 +18,7 @@
 <script src="js/bootstrap-collapse.js"></script>
 <script src="js/bootstrap-carousel.js"></script>
 <script src="js/bootstrap-tab.js"></script>
+<script src="js/raig.js"></script>
 
 </body>
 </html>

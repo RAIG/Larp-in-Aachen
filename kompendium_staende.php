@@ -29,6 +29,8 @@
 
 <?php $prev_name = "Recht und Gesetz"; ?>
 <?php $prev_link = "kompendium_recht.php"; ?>
+<?php $next_name = "Wirtschaft"; ?>
+<?php $next_link = "kompendium_wirtschaft.php"; ?>
 
 <?php include 'kompendium_footer.php'; ?>
 
