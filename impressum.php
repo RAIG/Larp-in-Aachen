@@ -1,4 +1,4 @@
-<?php $nav = 1; ?>
+<?php $nav = 0; ?>
 <?php $index = false; ?>
 
 <?php include 'includes/header.php'; ?>

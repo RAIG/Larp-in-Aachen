@@ -10,7 +10,7 @@
 	    <div class="span8 offset1">
         <div class="content important">
           <p><span class="capital">W</span>illkommen auf der Webpräsenz der Raigländer Söldner, der Liverollenspiel-Gruppe aus dem Raum Aachen. 
-          Seit mehreren Jahren sind wir nunmehr aktive Larper und fahren jährlich auf diverse Cons - vorzugsweise zur "Conquest of Mythodea", einer mehrtägigen Großcon im Sommer. 
+          Seit mehreren Jahren sind wir nunmehr aktive Larper und fahren jedes Jahr auf diverse Cons. Ein Highlight ist die "Conquest of Mythodea" - die mehrtägige Großcon im Sommer. 
           Der Großteil unserer Gruppe wohnt unmittelbar in Aachen und veranstaltet hier wöchentlich bei gutem Wetter ein Waffentraining.</p>
           <p>Wem das Spielkonzept des Söldnerhaufens gefällt, kann sehr gerne bei uns mitmachen. Wir sind immer auf der Suche nach Larpern, die unsere Spielergruppe bereichern!</p>
         </div> 
