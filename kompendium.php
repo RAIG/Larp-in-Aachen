@@ -80,7 +80,8 @@
 	</div>
 </div>
 
-
+<?php $prev_name = "Bibliothek"; ?>
+<?php $prev_link = "bibliothek.php"; ?>
 <?php $next_name = "Provinzen"; ?>
 <?php $next_link = "kompendium_provinzen.php"; ?>
 

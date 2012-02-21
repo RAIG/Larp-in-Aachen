@@ -51,7 +51,7 @@
 <div class="row">
 	<div class="span3">
 		<h3>Chroniken der Raigländer Söldner</h3>
-		<p>Über den Aufstieg des legendären Söldnerhaufens aus dem Raigland, über ihre Heldentaten auf dem Kontinent Mitraspera und finstersten Regionen, in die sich nur die tapfersten Krieger wagen.</p>
+		<p>Über den Aufstieg des legendären Söldnerhaufens aus dem Raigland, über ihre Heldentaten auf dem Kontinent Mitraspera und finstersten Regionen, in die sich nur die tapfersten Krieger wagen. Über den Autor: Bruder Eustachius reiste einige Monate gemeinsam mit dem Söldnerhaufen und rekonstruierte die Geschichte aus einer Vielzahl an Lagerfeuergeschichten und Unterhaltungen mit den einzelnen Söldnern.</p>
 		<p><a class="btn" href="chroniken.php">Erfahre mehr &raquo;</a></p>
 	</div>	
 	<div class="span3">

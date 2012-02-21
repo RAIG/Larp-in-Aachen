@@ -2,28 +2,72 @@
 
 <?php include 'includes/header.php'; ?>
 
-<div class="row">
-	<div class="span6 offset3">
-		<div id="myCarousel" class="carousel slide">
-			<div class="carousel-inner">
-				<div class="item active">
-					<a target="_blank" href="http://www.flickr.com/photos/29432406@N02/sets/72157606661934836/"><img src="img/conquest2008.jpg" alt="" width="570" height="428"></a>
-					<div class="carousel-caption">
-						<h4>Conquest 2008</h4>
-						<p>5-Tages Con auf dem Rittergut Brokeloh bei Hannover.</p>
+<div class="color-box">	
+	<div class="row">
+		<div class="span12">
+			<ul class="thumbnails">
+				<li class="span4">
+					<div class="content">
+						<div class="thumbnail">
+							<a href="galerie_veranstaltungen.php"><img src="/img/veranstaltungen.jpg" alt="http://placehold.it/360x268"></a>
+							<h4>Veranstaltungen</h4>				
+						</div>
 					</div>
-				</div>
-				<div class="item">
-					<a target="_blank" href="http://www.flickr.com/photos/29432406@N02/sets/72157621994444018/"><img src="img/conquest2009.jpg" alt="" width="570" height="428"></a>
-					<div class="carousel-caption">
-						<h4>Conquest 2009</h4>
-						<p>5-Tages Con auf dem Rittergut Brokeloh bei Hannover.</p>
+				</li>
+					
+				<li class="span4">
+					<div class="content">
+						<div class="thumbnail">
+							<a href="#"><img src="/img/gewandung.jpg" alt="http://placehold.it/360x268"></a>
+							<h4>Gewandung</h4>					
+						</div>
 					</div>
-				</div>
-			</div>
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-		</div>
+				</li>
+					
+				<li class="span4">
+					<div class="content">
+						<div class="thumbnail">
+							<a href="#"><img src="/img/ausstattung.jpg" alt="http://placehold.it/360x268"></a>
+							<h4>Ausstattung</h4>						
+						</div>
+					</div>
+				</li>				
+			</ul>
+		</div>	
+	</div>		
+	
+	<div class="row">
+		<div class="span12">
+			<ul class="thumbnails">
+				<li class="span4">
+					<div class="content">
+						<h3>Externe Galerien</h3>
+						<ul class="nav nav-pills nav-stacked">
+							<li><a target="_blank" href="http://www.flickr.com/photos/29432406@N02/sets/72157621994444018/">Conquest 2009 <i class="icon-share-alt"></i></a></li>
+							<li><a target="_blank" href="http://www.flickr.com/photos/29432406@N02/sets/72157606661934836/">Conquest 2008 <i class="icon-share-alt"></i></a></li>
+						</ul>						
+					</div>
+				</li>
+					
+				<li class="span4">
+					<div class="content">
+						<div class="thumbnail">
+							<a href="#"><img src="/img/kriegsgeraet.jpg" alt="http://placehold.it/360x268"></a>
+							<h4>Kriegsgerät</h4>						
+						</div>
+					</div>
+				</li>
+					
+				<li class="span4">
+					<div class="content">
+						<div class="thumbnail">
+							<a href="#"><img src="/img/lager.jpg" alt="http://placehold.it/360x268"></a>
+							<h4>Lager</h4>						
+						</div>
+					</div>
+				</li>				
+			</ul>
+		</div>	
 	</div>
 </div>
 
