@@ -49,9 +49,8 @@ body {
 .title-bar h1 {
 	font-size:48px;
 	margin-top: 139px;
-	color: #00FFFF;	
+	color: #FFF;	
 }
-
 .subtitle-bar {
 //border-top: 1px solid #000;
  //background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0B3157), to(#F5F5DC));
@@ -114,6 +113,10 @@ body {
   border: 1px solid #DBDBDB;
   background-color: #FFFFFF;
   padding: 10px;
+}
+.thumbnail-subtext  p {
+	margin-top: 10px;
+	text-align: center;
 }
 .footer {
   margin: 20px 0;

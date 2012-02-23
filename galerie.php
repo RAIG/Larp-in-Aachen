@@ -61,7 +61,7 @@
 				<li class="span4">
 					<div class="content">
 						<div class="thumbnail">
-							<a href="#"><img src="/img/lager.jpg" alt="http://placehold.it/360x268"></a>
+							<a href="galerie_lager.php"><img src="/img/lager.jpg" alt="http://placehold.it/360x268"></a>
 							<h4>Lager</h4>						
 						</div>
 					</div>

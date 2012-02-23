@@ -109,6 +109,11 @@
 							<td>15. Oktober 2011</td>
 							<td>Bonn-Bad Godesberg, Krakant e.V.</td>
 						</tr>
+						<tr>
+							<td>Conquest of Mythodea</td>
+							<td>3. bis 7. August 2011</td>
+							<td>Rittergut Brokeloh, von Live Adventure</td>
+						</tr>
 					</tbody>
 				</table>
 			</div>
