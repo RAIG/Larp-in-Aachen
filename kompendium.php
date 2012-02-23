@@ -1,7 +1,5 @@
 <?php $nav = 5; ?>
-
 <?php include 'includes/header.php'; ?>
-
 <?php include 'kompendium_header.php'; ?>
 
 <ul class="breadcrumb">
@@ -19,14 +17,14 @@
 		
 		<!-- Popup Imperium -->
 		<div id="popup_imperium" class="modal hide fade">
-            <div class="modal-header">
-              <a class="close" data-dismiss="modal" >&times;</a>
-              <h3>Das Imperium</h3>
-            </div>
-            <div class="modal-body">
-              <img src="/img/imperium_large.jpg" width="1080" height="599"/>
-            </div>
-          </div>		
+			<div class="modal-header">
+				<a class="close" data-dismiss="modal" >&times;</a>
+				<h3>Das Imperium</h3>
+			</div>
+			<div class="modal-body">
+				<img src="/img/imperium_large.jpg" width="1080" height="599"/>
+			</div>
+		</div>		
 	</div>
 </div>	
          
@@ -86,5 +84,4 @@
 <?php $next_link = "kompendium_provinzen.php"; ?>
 
 <?php include 'kompendium_footer.php'; ?>
-
 <?php include 'includes/footer.php'; ?>

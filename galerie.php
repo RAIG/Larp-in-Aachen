@@ -1,5 +1,4 @@
 <?php $nav = 3; ?>
-
 <?php include 'includes/header.php'; ?>
 
 <div class="color-box">	

@@ -141,7 +141,7 @@ body {
 .modal {
   left: 40%;
   max-height: 700px;
-  width: 900px;
+  width: 750px;
 }
 
 @media (max-width: 480px) {

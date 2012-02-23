@@ -14,10 +14,10 @@
   <![endif]-->
 
   <!-- Le styles -->
-	<link href="/css/bootstrap.css" rel="stylesheet">
-	<link href="/css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="/css/raig.css" rel="stylesheet">
-	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="/css/raig.css" rel="stylesheet">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     
   <!-- Google Analytics -->
 	<script type="text/javascript">
