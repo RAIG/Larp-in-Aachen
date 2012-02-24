@@ -13,31 +13,40 @@
 	<ul class="thumbnails">
 		<li class="span2">
 			<div class="content">
-				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"><img src="/img/lager01_small.JPG" alt=""></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(0);"><img src="/img/lager01_small.JPG" alt=""></a>
 			</div>
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/lager02_small.JPG" alt=""></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(1);"><img src="/img/lager02_small.JPG" alt=""></a>
 			</div>
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/lager03_small.JPG" alt=""></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(2);"><img src="/img/lager03_small.JPG" alt=""></a>
 			</div>
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/lager04_small.JPG" alt=""></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(3);"><img src="/img/lager04_small.JPG" alt=""></a>
 			</div>
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/lager05_small.JPG" alt=""></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(4);"><img src="/img/lager05_small.JPG" alt=""></a>
 			</div>
 		</li>      
 	</ul>
 	
+	<script type="text/javascript">
+            function set_picture(position)
+            {
+            	$('#myCarousel').carousel('pause');
+            	$('#myCarousel').carousel(position);
+               return false;
+            }
+  </script>
+  
 	
 	<!-- Popup -->
 	<div id="popup_galerie" class="modal hide fade">

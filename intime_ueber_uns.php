@@ -66,13 +66,43 @@
 		<li class="span2">
 			<div class="content">
 				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<div class="thumbnail-subtext">
+					<p>Magdalena</p>
+				</div>
 			</div>
 		</li>
 		<li class="span2">
- 			<div class="content">
+			<div class="content">
 				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<div class="thumbnail-subtext">
+
+				</div>
 			</div>
-		</li>	      
+		</li>
+		<li class="span2">
+			<div class="content">
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<div class="thumbnail-subtext">
+
+				</div>
+			</div>
+		</li>  
+		<li class="span2">
+			<div class="content">
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<div class="thumbnail-subtext">
+
+				</div>
+			</div>
+		</li>  
+		<li class="span2">
+			<div class="content">
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<div class="thumbnail-subtext">
+
+				</div>
+			</div>
+		</li>       
 	</ul>
 </div>	
 

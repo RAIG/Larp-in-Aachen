@@ -182,6 +182,9 @@ body {
   .color-box .span4 {
     width: 227px; 
   }
+  .color-box .span3 {
+    width: 165px;
+  }
   .color-box .span2 {
     width: 103px; 
   }
@@ -196,6 +199,9 @@ body {
   }
   .color-box .span4 {
     width: 299px; 
+  }
+  .color-box .span3 {
+    width: 219px;
   }
   .color-box .span2 {
     width: 139px; 
@@ -214,6 +220,9 @@ body {
   }
   .color-box .span4 {
     width: 369px; 
+  }
+  .color-box .span3 {
+    width: 269px;
   }
   .color-box .span2 {
     width: 169px; 

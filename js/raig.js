@@ -1,7 +1,8 @@
 !function ($) {
-
+	
+	$('#myCarousel').carousel('pause');
 
 	  
-	  $('#myCarousel').carousel()
+	
 
 }(window.jQuery)
