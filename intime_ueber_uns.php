@@ -22,7 +22,7 @@
 	<ul class="thumbnails">
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/conrad.jpg" alt=""></a>
+				<a href="#" class="thumbnail"><img src="/img/conrad.jpg"></a>
 				<div class="thumbnail-subtext">
 					<p>Conrad von Freifels</p>
 				</div>				
@@ -30,15 +30,23 @@
 		</li>	
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/darek.jpg" alt=""></a>
+				<a href="#" class="thumbnail"><img src="/img/darek.jpg"></a>
 				<div class="thumbnail-subtext">
 					<p>Hauptmann Darek</p>
 				</div>				
 			</div>
-		</li>		
+		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/wilhelm.jpg" alt=""></a>
+				<a href="#" class="thumbnail"><img src="/img/magdalena.jpg"></a>
+				<div class="thumbnail-subtext">
+					<p>Magdalena</p>
+				</div>
+			</div>
+		</li>	
+		<li class="span2">
+			<div class="content">
+				<a href="#" class="thumbnail"><img src="/img/wilhelm.jpg"></a>
 				<div class="thumbnail-subtext">
 					<p>Fähnrich Wilhelm</p>
 				</div>	
@@ -46,34 +54,28 @@
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="/img/adrian.jpg" alt=""></a>
+				<a href="#" class="thumbnail"><img src="/img/adrian.jpg"></a>
 				<div class="thumbnail-subtext">
 					<p>Adrian van Trebe</p>
 				</div>
 			</div>
 		</li>
+
+	</ul>
+			
+	<ul class="thumbnails">	
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120"></a>
 				<div class="thumbnail-subtext">
 					<p>Eric</p>
 				</div>
 			</div>
-		</li>
-	</ul>
-			
-	<ul class="thumbnails">		
+		</li>		
+
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
-				<div class="thumbnail-subtext">
-					<p>Magdalena</p>
-				</div>
-			</div>
-		</li>
-		<li class="span2">
-			<div class="content">
-				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120"></a>
 				<div class="thumbnail-subtext">
 
 				</div>
@@ -81,7 +83,7 @@
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120"></a>
 				<div class="thumbnail-subtext">
 
 				</div>
@@ -89,7 +91,7 @@
 		</li>  
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120"></a>
 				<div class="thumbnail-subtext">
 
 				</div>
@@ -97,7 +99,7 @@
 		</li>  
 		<li class="span2">
 			<div class="content">
-				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120" alt=""></a>
+				<a href="#" class="thumbnail"><img src="http://placehold.it/160x120"></a>
 				<div class="thumbnail-subtext">
 
 				</div>

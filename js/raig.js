@@ -1,8 +1,6 @@
-!function ($) {
-	
-	$('#myCarousel').carousel('pause');
-
-	  
-	
-
-}(window.jQuery)
+function set_picture(position)
+{
+	$('#myCarousel').carousel(position);
+	$('#myCarousel').carousel('pause');            	
+	return false;
+}

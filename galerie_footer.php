@@ -1,10 +1,7 @@
 			<div class="row">
-				<div class="span5">					
-					<?php if ( isset( $prev_link ) ) { echo "<div class='content'><a href='$prev_link'>&laquo Zurück zu &#8220$prev_name&#8221</a></div>"; } ?>		
-				</div>
-				<div class="span5 <?php if ( !isset( $prev_link ) ) { echo "offset5"; } ?> right">					
-					<?php if ( isset( $next_link ) ) { echo "<div class='content'><a href='$next_link'>Weiter zu &#8220$next_name&#8221 &raquo</a></div>"; } ?>
-				</div>
+				<div class="span10">
+					<p class="center"><a href="galerie.php">Zurück zur Galerie</a></p>					
+				</div>	
 			</div>
 		</div>
 	</div>

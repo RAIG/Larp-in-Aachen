@@ -61,14 +61,18 @@
 			</div>
 			<div class="color-box">
 				<div class="content">
-					<h4>Newsletter abonnieren</h4>
-					<form class="form-search">
-					 <input type="text" class="span3" placeholder="E-Mail Adresse eingeben…">
-        	 <button type="submit" class="btn disabled">Anmelden</button>
-        	</form>
-				</div>
-			</div>
-		</div>	
+          <form action="http://raigland.us4.list-manage1.com/subscribe/post?u=8e798561b4778f6118cff0694&amp;id=a9d2356710" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-search" target="_blank">
+            <h4>Newsletter abonnieren</h4>
+            <input type="text" class="span3" placeholder="E-Mail Adresse eingeben…" name="EMAIL" id="mce-EMAIL">
+            <button type="submit" class="btn" name="subscribe" id="mc-embedded-subscribe">Anmelden</button>
+					  <div id="mce-responses" class="clear">
+					    <div class="response" id="mce-error-response" style="display:none"></div>
+					    <div class="response" id="mce-success-response" style="display:none"></div>
+					  </div>         
+          </form>
+        </div>
+ 			</div>
+		</div>
 	
 		<div class="span7">
 			<div class="color-box">
@@ -92,12 +96,6 @@
                 <p><a class="btn btn-primary" target="_blank" href="http://www.herzogtum-nebula.de/">Zur Website &raquo;</a></p>
 						</div>
 					</div>
-					 
-					<script>
-						$(function () {
-							$('.tabs a:last').tab('show')
-						})
-					</script>
 				</div>
 			</div>
 	  	</div>
