@@ -43,7 +43,7 @@
 		</div>
 		<div class="row">
 			<div class="span3">
-				<div class="center" id="loading">
+				<div class="center" id="loading" style="display:none;">
 				  <p>loading...</p>
 				</div>
 			</div>
@@ -57,8 +57,28 @@
 	var images = {};
 	var options = {};	
 
-	function loadImages(sources, callback) {
-			
+	window.onload = function(images) {
+
+		
+		canvas = document.getElementById('atlas');
+		context = canvas.getContext('2d');
+
+		canvas.addEventListener('mousedown', canvasEvent, false);
+		canvas.addEventListener('mousemove', canvasEvent, false);
+		canvas.addEventListener('mouseup',   canvasEvent, false);
+		
+		var sources = {
+			grund: "/img/ult_grund.png",
+			laender: "/img/ult_laender.png",
+			fluesse: "/img/ult_fluesse.png",
+			laender_namen: "/img/ult_laender_namen.png",
+			staedte_namen: "/img/ult_staedte_namen.png",
+			verkehr: "/img/ult_verkehr.png"
+		};
+		loadImages(sources, generateImages);
+	};
+
+	function loadImages(sources, callback) {		
 		var loadedImages = 0;
 		var numImages = 0;
 
@@ -75,13 +95,43 @@
 			images[src].src = sources[src];
 		}
 	}
+	
+	function generateImages(images) {				
+		srcCanvas = document.createElement('canvas');
+		srcCanvas.width = 3804;
+		srcCanvas.height = 4608;
+		srcContext = srcCanvas.getContext('2d');
+
+		bufferCanvas = document.createElement('canvas');
+		bufferCanvas.width = 3804;
+		bufferCanvas.height = 4608;
+		contextBuffer = bufferCanvas.getContext('2d');
+		
+		srcContext.drawImage(images.grund, 0, 0);
+		srcContext.drawImage(images.laender, 0, 0);
+		srcContext.drawImage(images.fluesse, 0, 0);
+		srcContext.drawImage(images.laender_namen, 0, 0);
+		srcContext.drawImage(images.staedte_namen, 0, 0);
+		srcContext.drawImage(images.verkehr, 0, 0);
+
+		drawImages(0.15, 0, 0);
+	}
+	
+	function drawImages(scale, x, y) {
+		contextBuffer.clearRect(0, 0, 3804, 4608);
+		contextBuffer.scale(scale, scale);
+		contextBuffer.drawImage(srcCanvas, 0, 0);
+		
+		context.clearRect(0, 0, 720, 540);
+		context.drawImage(bufferCanvas, x, y);
+	}
 
 	function zoomIn() {
-		drawImages(0.75);
+		drawImages(0.75, 0, 0);
 	}
 
 	function zoomOut() {
-		drawImages(1.25);
+		drawImages(1.25, 0, 0);
 	}
 
 	function showImages() {
@@ -103,44 +153,45 @@
 		}
 		drawImages(1);
 	}
-	
-	function drawImages(scale) {
-		var canvas = document.getElementById('atlas');
-		var context = canvas.getContext('2d');
-		context.clearRect(0, 0, 3804, 4608);
-		context.scale(scale, scale);
-		context.drawImage(bufferCanvas, 0, 0);
-		document.getElementById('loading').style.display = "none";
-	}
-	
-	function generateImages(images) {
-		document.getElementById('loading').style.display = "block";
-		bufferCanvas = document.createElement('canvas');
-		bufferCanvas.width = 3804;
-		bufferCanvas.height = 4608;
-		contextBuffer = bufferCanvas.getContext('2d');
 
-		contextBuffer.drawImage(images.grund, 0, 0);
-		contextBuffer.drawImage(images.laender, 0, 0);
-		contextBuffer.drawImage(images.fluesse, 0, 0);
-		contextBuffer.drawImage(images.laender_namen, 0, 0);
-		contextBuffer.drawImage(images.staedte_namen, 0, 0);
-		contextBuffer.drawImage(images.verkehr, 0, 0);
-
-		drawImages(0.15);
-	}
+	mouseRelativeLeft = 0;
+	mouseRelativeTop = 0;
+	contextLeft = 0;
+	contextTop = 0;
+	mouseOffsetLeft = 0;
+	mouseOffsetTop = 0;
+	mouseMove = false;
 	
-	window.onload = function(images) {	
-		var sources = {
-			grund: "/img/ult_grund.png",
-			laender: "/img/ult_laender.png",
-			fluesse: "/img/ult_fluesse.png",
-			laender_namen: "/img/ult_laender_namen.png",
-			staedte_namen: "/img/ult_staedte_namen.png",
-			verkehr: "/img/ult_verkehr.png"
-		};
-		loadImages(sources, generateImages);
-	};
+  function canvasEvent (event) {
+	  var canvasLeft = document.getElementById('atlas').offsetLeft;
+		var canvasTop = document.getElementById('atlas').offsetTop;
+	  var x = event.clientX;
+	  var y = event.clientY;
+	  
+		mouseRelativeLeft = x - canvasLeft;
+		mouseRelativeTop = y - canvasTop;
+	  
+		if (event.type == 'mousedown') {			
+			mouseOffsetLeft = mouseRelativeLeft - contextLeft;
+			mouseOffsetTop = mouseRelativeTop - contextTop;			
+			mouseMove = true;
+		}
+		if ( (event.type == 'mousemove') && (mouseMove) ) {
+			context.clearRect(0, 0, 720, 540);
+			context.drawImage(bufferCanvas, mouseRelativeLeft - mouseOffsetLeft, mouseRelativeTop - mouseOffsetTop);
+		}
+		if (event.type == 'mouseup') {
+			contextLeft = mouseRelativeLeft - mouseOffsetLeft;
+			contextTop = mouseRelativeTop - mouseOffsetTop;
+			mouseMove = false;
+			//context.clearRect(0, 0, 200, 50);
+			//context.fillText("X coords: " + contextLeft + ", Y coords: " + contextTop, 10, 10);
+		}
+ 	}
+	
+
+	
+
 </script>
 
 <?php include 'includes/footer.php'; ?>

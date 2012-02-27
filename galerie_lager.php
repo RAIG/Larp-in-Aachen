@@ -13,17 +13,17 @@
 	<ul class="thumbnails">
 		<li class="span2">
 			<div class="content">
-				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(0);"><img src="/img/lager01_small.jpg"></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(0);"><img src="/img/lager01_small.JPG"></a>
 			</div>
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(1);"><img src="/img/lager02_small.jpg"></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(1);"><img src="/img/lager02_small.JPG"></a>
 			</div>
 		</li>
 		<li class="span2">
 			<div class="content">
-				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(2);"><img src="/img/lager03_small.jpg"></a>
+				<a data-toggle="modal" href="#popup_galerie" class="thumbnail"  onclick="set_picture(2);"><img src="/img/lager03_small.JPG"></a>
 			</div>
 		</li>
 		<li class="span2">
@@ -80,9 +80,9 @@
 		<div class="modal-body">		
 			<div id="myCarousel" class="carousel slide">
 				<div class="carousel-inner">
-					<div class="item active"><img src="/img/lager01.jpg"></div>
-					<div class="item"><img src="/img/lager02.jpg"></div>
-					<div class="item"><img src="/img/lager03.jpg"></div>
+					<div class="item active"><img src="/img/lager01.JPG"></div>
+					<div class="item"><img src="/img/lager02.JPG"></div>
+					<div class="item"><img src="/img/lager03.JPG"></div>
 					<div class="item"><img src="/img/lager04.jpg"></div>
 					<div class="item"><img src="/img/lager05.jpg"></div>
 					<div class="item"><img src="/img/lager07.jpg"></div>
