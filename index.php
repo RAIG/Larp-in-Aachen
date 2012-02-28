@@ -56,7 +56,7 @@
 						<li>25/01/2012: Redesign mit Front-End Toolkit Bootstrap</li>
 						<li>21/01/2012: Condra Taverne</li>
 						<li>29/10/2011: Relaunch der Website</li>
-		       </ul>
+		       </ul>			
 				</div>
 			</div>
 			<div class="color-box">

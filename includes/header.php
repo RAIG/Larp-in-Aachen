@@ -47,7 +47,8 @@
 				  <span class="icon-bar"></span> 
 				  <span class="icon-bar"></span> 
 				  <span class="icon-bar"></span>
-				</a> 
+				</a>
+				<a class="brand" href="#" id="help" title="Hilfe" data-content="Um die Website in vollem Funktionsumfang nutzen zu können, wird HTML5- und CSS3-Unterstützung benötigt.">?</a> 
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li  <?php if ( $nav == 1 ) { echo "class='active'"; } ?>><a href="index.php">Home</a></li>
@@ -62,8 +63,8 @@
 								<li class="divider"></li>
 								<li><a target="_blank" href="http://www.wyverex.de/nebula/phpbb2/index.php">Forum	<i class="icon-share-alt"></i></a></li>
 								<li><a href="#">Gästebuch <i class="icon-share-alt"></i></a></li>
-							</ul>
-						</li>
+							</ul>							
+						</li>						
 					</ul>
 				</div>
 			</div>
@@ -81,24 +82,19 @@
 	</div>	
 
 	<div class="subtitle-bar">
-	<div class="container">
-
-	<div class="row">
-	<div class="span12">
-	<div class="content-header">
-    <p>
-      <span class="label label-warning">Beta</span> Die Webpräsenz der
-      Raigländer Söldner befindet sich noch im Aufbau. Der Inhalt wird
-      mit und mit an das neue Design angepasst und eingepflegt.
-    </p>
-  </div>
-	</div>
-	</div>
-
-	</div>
-	</div>
-	
-	
-	
+		<div class="container">	
+			<div class="row">
+				<div class="span12">
+					<div class="content-header">
+				    <p>
+				      <span class="label label-warning">Beta</span> Die Webpräsenz der
+				      Raigländer Söldner befindet sich noch im Aufbau. Der Inhalt wird
+				      mit und mit an das neue Design angepasst und eingepflegt.
+				    </p>
+				  </div>
+				</div>
+			</div>	
+		</div>
+	</div>	
 	
 	<div class="container">

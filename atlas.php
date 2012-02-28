@@ -12,7 +12,7 @@
 <div class="row">
 	<div class="span9">
 		<div class="color-box">
-			<canvas id="atlas" width="720" height="540"></canvas>
+			<canvas id="atlas" width="850" height="540"></canvas>
 		</div>
 	</div>
 
@@ -30,8 +30,8 @@
 						</div>
 						<div class="btn-toolbar">
 							<div class="btn-group">
-					  		<a class="btn" onclick="zoomIn()"><i class="icon-minus"></i></a>
-					  		<a class="btn" onclick="zoomOut()"><i class="icon-plus"></i></a>
+					  		<a class="btn" onclick="zoomOut()"><i class="icon-minus"></i></a>
+					  		<a class="btn" onclick="zoomIn()"><i class="icon-plus"></i></a>
 							</div>
 							<div class="btn-group">
 								<a class="btn" onclick="showImages()">Anzeigen</a>
@@ -43,8 +43,8 @@
 		</div>
 		<div class="row">
 			<div class="span3">
-				<div class="center" id="loading" style="display:none;">
-				  <p>loading...</p>
+				<div class="progress">
+				  <div class="bar" id="scaleLevelBar" style="width: 10%;"></div>
 				</div>
 			</div>
 		</div>
@@ -57,12 +57,17 @@
 	var images = {};
 	var options = {};	
 
-	window.onload = function(images) {
-
-		
+	var scaleLevel = 1;
+	var contextLeft = 0;
+	var contextTop = 0;
+	
+	window.onload = function(images) {		
 		canvas = document.getElementById('atlas');
 		context = canvas.getContext('2d');
 
+		baseWidth = canvas.width;
+		baseHeight = canvas.height;
+		
 		canvas.addEventListener('mousedown', canvasEvent, false);
 		canvas.addEventListener('mousemove', canvasEvent, false);
 		canvas.addEventListener('mouseup',   canvasEvent, false);
@@ -97,15 +102,13 @@
 	}
 	
 	function generateImages(images) {				
+		width = 3804;
+		height = 4608;
+		
 		srcCanvas = document.createElement('canvas');
-		srcCanvas.width = 3804;
-		srcCanvas.height = 4608;
+		srcCanvas.width = width;
+		srcCanvas.height = height;
 		srcContext = srcCanvas.getContext('2d');
-
-		bufferCanvas = document.createElement('canvas');
-		bufferCanvas.width = 3804;
-		bufferCanvas.height = 4608;
-		contextBuffer = bufferCanvas.getContext('2d');
 		
 		srcContext.drawImage(images.grund, 0, 0);
 		srcContext.drawImage(images.laender, 0, 0);
@@ -114,24 +117,51 @@
 		srcContext.drawImage(images.staedte_namen, 0, 0);
 		srcContext.drawImage(images.verkehr, 0, 0);
 
-		drawImages(0.15, 0, 0);
+		drawImages(0.1);
 	}
 	
-	function drawImages(scale, x, y) {
-		contextBuffer.clearRect(0, 0, 3804, 4608);
-		contextBuffer.scale(scale, scale);
-		contextBuffer.drawImage(srcCanvas, 0, 0);
-		
-		context.clearRect(0, 0, 720, 540);
-		context.drawImage(bufferCanvas, x, y);
-	}
+	function drawImages(scale) {
+		////var offsetLeft = contextLeft + 0.5 * baseWidth * ( 1 - scale) - contextLeft * scale;
+		////var offsetTop = contextTop + 0.5 * baseHeight * ( 1 - scale) - contextTop * scale;		
+		////cotextLeft = contextLeft + offsetLeft;
+		////contextTop = contextTop + offsetTop;		
+		//contextLeft = contextLeft - 0.5 * ( width * scale - width );
+		//contextTop = contextTop - 0.5 * ( height * scale - height );		
 
-	function zoomIn() {
-		drawImages(0.75, 0, 0);
+		bufferCanvas = document.createElement('canvas');
+		bufferCanvas.width = width;
+		bufferCanvas.height = height;
+		contextBuffer = bufferCanvas.getContext('2d');
+
+		contextBuffer.clearRect(0, 0, 3804, 4608);
+		contextBuffer.scale( scale, scale );
+		contextBuffer.drawImage(srcCanvas, 0, 0);
+
+		context.clearRect(0, 0, baseWidth, baseHeight);
+		context.drawImage(bufferCanvas, contextLeft, contextTop);
+
+		context.clearRect(0, 0, 200, 50);
+		context.fillText("X coords: " + contextLeft + ", Y coords: " + contextTop, 10, 10);
 	}
 
 	function zoomOut() {
-		drawImages(1.25, 0, 0);
+		if ( scaleLevel - 1 >= 1 ) {
+			scaleLevel--;
+			contextLeft = contextLeft - 0.5 * baseWidth * scaleLevel * 0.1;
+			contextTop = contextTop -  0.5 * baseHeight * scaleLevel * 0.1;
+			document.getElementById('scaleLevelBar').style.width = 10 * scaleLevel + "%";
+			drawImages( 0.1 * scaleLevel );
+		}		
+	}
+
+	function zoomIn() {
+		if ( scaleLevel + 1 <= 10 ) {
+			scaleLevel++;
+			contextLeft = contextLeft + 0.5 * baseWidth * scaleLevel * 0.1;
+			contextTop = contextTop + 0.5 * baseHeight * scaleLevel * 0.1;
+			document.getElementById('scaleLevelBar').style.width = 10 * scaleLevel + "%";
+			drawImages( 0.1 * scaleLevel );
+		}
 	}
 
 	function showImages() {
@@ -156,8 +186,7 @@
 
 	mouseRelativeLeft = 0;
 	mouseRelativeTop = 0;
-	contextLeft = 0;
-	contextTop = 0;
+
 	mouseOffsetLeft = 0;
 	mouseOffsetTop = 0;
 	mouseMove = false;
@@ -177,21 +206,17 @@
 			mouseMove = true;
 		}
 		if ( (event.type == 'mousemove') && (mouseMove) ) {
-			context.clearRect(0, 0, 720, 540);
+			context.clearRect(0, 0, canvas.width, canvas.height);
 			context.drawImage(bufferCanvas, mouseRelativeLeft - mouseOffsetLeft, mouseRelativeTop - mouseOffsetTop);
 		}
 		if (event.type == 'mouseup') {
 			contextLeft = mouseRelativeLeft - mouseOffsetLeft;
 			contextTop = mouseRelativeTop - mouseOffsetTop;
 			mouseMove = false;
-			//context.clearRect(0, 0, 200, 50);
-			//context.fillText("X coords: " + contextLeft + ", Y coords: " + contextTop, 10, 10);
+			context.clearRect(0, 0, 200, 50);
+			context.fillText("X coords: " + contextLeft + ", Y coords: " + contextTop, 10, 10);
 		}
  	}
-	
-
-	
-
 </script>
 
 <?php include 'includes/footer.php'; ?>
