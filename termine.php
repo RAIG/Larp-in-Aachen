@@ -57,6 +57,16 @@
 							<td>Nideggen Schmidt, von der Condra Orga</td>
 						</tr>
 						<tr>
+							<td>Helterhofer Handelskeller</td>
+							<td>24. März 2012</td>
+							<td>Nordmarker Taverne in Neuss</td>
+						</tr>
+						<tr>
+							<td>Grenzwacht 16</td>
+							<td>20. bis 22. April 2012</td>
+							<td>Düren, Engonien Orga</td>
+						</tr>
+						<tr>
 							<td>AWE 6 - Schein und Sein</td>
 							<td>27. bis 29. April 2012</td>
 							<td>Irgendwo bei Straelen, von Another World Entertainment</td>
