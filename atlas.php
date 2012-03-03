@@ -121,13 +121,6 @@
 	}
 	
 	function drawImages(scale) {
-		////var offsetLeft = contextLeft + 0.5 * baseWidth * ( 1 - scale) - contextLeft * scale;
-		////var offsetTop = contextTop + 0.5 * baseHeight * ( 1 - scale) - contextTop * scale;		
-		////cotextLeft = contextLeft + offsetLeft;
-		////contextTop = contextTop + offsetTop;		
-		//contextLeft = contextLeft - 0.5 * ( width * scale - width );
-		//contextTop = contextTop - 0.5 * ( height * scale - height );		
-
 		bufferCanvas = document.createElement('canvas');
 		bufferCanvas.width = width;
 		bufferCanvas.height = height;
@@ -139,16 +132,17 @@
 
 		context.clearRect(0, 0, baseWidth, baseHeight);
 		context.drawImage(bufferCanvas, contextLeft, contextTop);
-
-		context.clearRect(0, 0, 200, 50);
-		context.fillText("X coords: " + contextLeft + ", Y coords: " + contextTop, 10, 10);
 	}
 
 	function zoomOut() {
 		if ( scaleLevel - 1 >= 1 ) {
+			bufferLevel = ( scaleLevel + 1 ) / scaleLevel;
+			bufferWidth = baseWidth / 2 - contextLeft;
+			bufferHeight = baseHeight / 2 - contextTop;
 			scaleLevel--;
-			contextLeft = contextLeft - 0.5 * baseWidth * scaleLevel * 0.1;
-			contextTop = contextTop -  0.5 * baseHeight * scaleLevel * 0.1;
+			
+			contextLeft = contextLeft + bufferWidth * ( bufferLevel - 1 );
+			contextTop = contextTop + bufferHeight * ( bufferLevel - 1 );
 			document.getElementById('scaleLevelBar').style.width = 10 * scaleLevel + "%";
 			drawImages( 0.1 * scaleLevel );
 		}		
@@ -156,32 +150,36 @@
 
 	function zoomIn() {
 		if ( scaleLevel + 1 <= 10 ) {
+			bufferLevel = ( scaleLevel + 1 ) / scaleLevel;
+			bufferWidth = baseWidth / 2 - contextLeft;
+			bufferHeight = baseHeight / 2 - contextTop;
 			scaleLevel++;
-			contextLeft = contextLeft + 0.5 * baseWidth * scaleLevel * 0.1;
-			contextTop = contextTop + 0.5 * baseHeight * scaleLevel * 0.1;
+			
+			contextLeft = contextLeft - bufferWidth * ( bufferLevel - 1 );
+			contextTop = contextTop - bufferHeight * ( bufferLevel - 1 );
 			document.getElementById('scaleLevelBar').style.width = 10 * scaleLevel + "%";
 			drawImages( 0.1 * scaleLevel );
 		}
 	}
 
 	function showImages() {
-		contextBuffer.clearRect(0, 0, 3804, 4608);
-		contextBuffer.drawImage(images.grund, 0, 0);
+		srcContext.clearRect(0, 0, 3804, 4608);
+		srcContext.drawImage(images.grund, 0, 0);
 		
 		if ( document.getElementById('box_fluesse').checked == true ) {			
-			contextBuffer.drawImage(images.fluesse, 0, 0);
+			srcContext.drawImage(images.fluesse, 0, 0);
 		}
 		if ( document.getElementById('box_laender').checked == true ) {			
-			contextBuffer.drawImage(images.laender, 0, 0);
-			contextBuffer.drawImage(images.laender_namen, 0, 0);
+			srcContext.drawImage(images.laender, 0, 0);
+			srcContext.drawImage(images.laender_namen, 0, 0);
 		}
 		if ( document.getElementById('box_staedte_namen').checked == true ) {			
-			contextBuffer.drawImage(images.staedte_namen, 0, 0);
+			srcContext.drawImage(images.staedte_namen, 0, 0);
 		}
 		if ( document.getElementById('box_verkehr').checked == true ) {			
-			contextBuffer.drawImage(images.verkehr, 0, 0);
+			srcContext.drawImage(images.verkehr, 0, 0);
 		}
-		drawImages(1);
+		drawImages( 0.1 * scaleLevel );
 	}
 
 	mouseRelativeLeft = 0;
@@ -213,8 +211,6 @@
 			contextLeft = mouseRelativeLeft - mouseOffsetLeft;
 			contextTop = mouseRelativeTop - mouseOffsetTop;
 			mouseMove = false;
-			context.clearRect(0, 0, 200, 50);
-			context.fillText("X coords: " + contextLeft + ", Y coords: " + contextTop, 10, 10);
 		}
  	}
 </script>
