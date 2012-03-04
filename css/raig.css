@@ -37,9 +37,6 @@ body {
   padding:10px;
   text-align:center;	
 }
-.loading {
-	display: none;
-}
 .title-bar {
  background-color: #082542;
  -webkit-box-shadow: 0px 10px 5px #666;
@@ -122,6 +119,9 @@ body {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+.color-box i {
+	margin-right: 5px;
+}
 .well {
   border: 1px solid #DBDBDB;
   background-color: #FFFFFF;
@@ -156,7 +156,10 @@ body {
   max-height: 700px;
   width: 750px;
 }
-
+.atlas {
+	width: 900px;
+	  background-color: #FFFFFF;
+}
 @media (max-width: 480px) {
   body {
    padding-top: 70px; 
@@ -201,6 +204,9 @@ body {
   .color-box .span2 {
     width: 103px; 
   }
+  .color-box .span1 {
+    width: 41px; 
+  }
   .color-box .offset1 {
     margin-left: 80px;
   } 
@@ -218,6 +224,9 @@ body {
   }
   .color-box .span2 {
     width: 139px; 
+  }
+  .color-box .span1 {
+    width: 59px; 
   }
   .color-box .offset1 {
     margin-left: 98px;
@@ -239,6 +248,9 @@ body {
   }
   .color-box .span2 {
     width: 169px; 
+  }
+  .color-box .span1 {
+    width: 69px; 
   }
   .color-box .offset1 {
     margin-left: 128px;

@@ -10,47 +10,59 @@
 
 
 <div class="row">
-	<div class="span9">
-		<div class="color-box">
-			<canvas id="atlas" width="850" height="540"></canvas>
+	<div class="span10">
+		<div class="color-box">			
+			<canvas id="atlas" width="900" height="540"></canvas>
 		</div>
 	</div>
 
-	<div class="span3">
+	<div class="span2">
 		<div class="row">
-			<div class="span3">
+			<div class="span2">
 				<div class="control-group color-box">
 					<div class="content">
-						<label class="control-label" for="optionsCheckboxList">Anzeige</label>
-							<div class="controls">
+						<h4>Sichtbare Ebenen</h4>
+						<div class="controls">
 							<label class="checkbox"><input type="checkbox" id="box_fluesse" checked>Flüsse</label>
 							<label class="checkbox"><input type="checkbox" id="box_laender" checked>Länder</label>
 							<label class="checkbox"><input type="checkbox" id="box_staedte_namen" checked>Städte</label>
 							<label class="checkbox"><input type="checkbox" id="box_verkehr" checked>Verkehr</label>  
 						</div>
-						<div class="btn-toolbar">
-							<div class="btn-group">
-					  		<a class="btn" onclick="zoomOut()"><i class="icon-minus"></i></a>
-					  		<a class="btn" onclick="zoomIn()"><i class="icon-plus"></i></a>
-							</div>
-							<div class="btn-group">
-								<a class="btn" onclick="showImages()">Anzeigen</a>
+						<div class="center">
+							<a class="btn" onclick="showImages()">Anzeigen</a>
+						</div>
+					</div>
+				</div>
+				<div class="color-box">
+					<div class="row">
+						<div class="span2">
+							<div class="content-header">	
+								<h4>Zoom</h4>
 							</div>
 						</div>
+					</div>
+					<div class="row">			
+						<div class="span2">
+							<div class="content">
+								<span class="pull-left">
+									<i class="icon-search"></i>
+								</span>												
+								<div class="progress">
+						 			<div class="bar" id="scaleLevelBar" style="width: 10%;"></div>
+								</div>					
+								<div class="btn-toolbar center">
+									<div class="btn-group">
+						  			<a class="btn" onclick="zoomOut()"><i class="icon-minus"></i></a>
+						  			<a class="btn" onclick="zoomIn()"><i class="icon-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>	
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="span3">
-				<div class="progress">
-				  <div class="bar" id="scaleLevelBar" style="width: 10%;"></div>
-				</div>
-			</div>
-		</div>
 	</div>
-
-
 </div>
 
 <script>
@@ -58,7 +70,7 @@
 	var options = {};	
 
 	var scaleLevel = 1;
-	var contextLeft = 0;
+	var contextLeft = 300;
 	var contextTop = 0;
 	
 	window.onload = function(images) {		
