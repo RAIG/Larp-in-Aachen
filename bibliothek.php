@@ -6,7 +6,7 @@
 	<div class="row">
 		<div class="span6">
 			<div class="content">
-				<p><img src="/img/logo.png" width="200" height="125"/></p>
+				<p class="center"><img src="/img/logo.png" width="200" height="125"/></p>
 				<p>Ultus Ursaga ist eine Fantasy Rollenspielwelt und dient als Hintergrund sowohl für Pen and Paper Abenteuer, als auch für Liverollenspiel Gruppen.</p>
 				<p>Auch wenn so manch törichter Mensch behauptete, Ult sei eine Kugel, hat sie doch eine flache runde Oberfläche. Bereits mehrere Male wurde ihnen bereits das Gegenteil bewiesen, indem tapfere Seefahrer weit in Richtung Süden segelten und nie wieder zurückkehrten.</p>
 				<p>Nach unten hin verjüngt sich die Welt zu einer Spitze: Von außen betrachtet sieht die Welt daher wie ein Splitter aus, der aus einem kugelförmigen Planeten herausbrochen wurde.</p>

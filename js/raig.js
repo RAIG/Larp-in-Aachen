@@ -1,7 +1,7 @@
-function set_picture(position)
+function set_picture(position, dest)
 {
-	$('#myCarousel').carousel(position);
-	$('#myCarousel').carousel('pause');            	
+	$('#' + dest).carousel(position);
+	$('#' + dest).carousel('pause');            	
 	return false;
 }
 

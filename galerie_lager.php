@@ -66,11 +66,6 @@
 		</li>      
 	</ul>
 	
-	<script type="text/javascript">
-
-  </script>
-  
-	
 	<!-- Popup -->
 	<div id="popup_galerie" class="modal hide fade">
 		<div class="modal-header">

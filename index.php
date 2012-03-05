@@ -44,7 +44,7 @@
 		<div class="span5">
 		  <div class="color-box">
 		    <div class="content-header">
-		      <p><span class="label label-info">Info</span> Mehr zum Thema LARP erfahren Sie <a href="#">hier</a>.</p>
+		      <p><span class="label label-info">Info</span> Mehr zum Thema LARP erfahren Sie <a href="larp.php">hier</a>.</p>
 		    </div>	  
 		  </div>
 			<div class="color-box">

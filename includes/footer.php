@@ -4,7 +4,7 @@
 <footer class="footer">
 	<div class="container">	 
 		<p class="pull-left"><a href="impressum.php">Impressum</a></p>
-		<p class="pull-left"><a href="">Sitemap</a></p>
+		<p class="pull-left"><a href="sitemap.php">Sitemap</a></p>
 		<p class="pull-right"><a href="#">Nach oben<i class="icon-arrow-up"></i></a></p>		
 	</footer>
 </div>
